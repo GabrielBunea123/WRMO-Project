@@ -1,0 +1,27 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card-auth {
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  border: 0;
+  display: block;
+  margin: auto;
+  width: 500px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 530px) {
+  .card-auth {
+    width: 100%;
+  }
+}
+
+.general-card {
+  margin-top: 50px;
+}
